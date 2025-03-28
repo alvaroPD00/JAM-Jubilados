@@ -62,16 +62,13 @@
     <Compile Include="Assets\scripts\final.cs" />
     <Compile Include="Assets\scripts\Comportamiento\DetectarObjetos.cs" />
     <Compile Include="Assets\scripts\Comportamiento\DetectarColisiones.cs" />
-    <Compile Include="Assets\scripts\Sin uso\Sucumbir.cs" />
     <Compile Include="Assets\scripts\Comportamiento\Golpeado.cs" />
-    <Compile Include="Assets\scripts\Sin uso\AudioControl.cs" />
     <Compile Include="Assets\scripts\Comportamiento\SpawnClick.cs" />
     <Compile Include="Assets\scripts\Reiniciar.cs" />
     <Compile Include="Assets\scripts\Comportamiento\Spawner.cs" />
-    <Compile Include="Assets\scripts\Sin uso\ControlCamara.cs" />
+    <Compile Include="Assets\scripts\Comportamiento\PantallasInicio.cs" />
     <Compile Include="Assets\scripts\Comportamiento\SeguirObjetivo.cs" />
     <Compile Include="Assets\scripts\Comportamiento\Vida.cs" />
-    <Compile Include="Assets\scripts\Sin uso\Interpolador.cs" />
     <Compile Include="Assets\scripts\Iniciar.cs" />
     <Compile Include="Assets\scripts\Comportamiento\ContadorGolpes.cs" />
   </ItemGroup>
