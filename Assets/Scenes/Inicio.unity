@@ -324,7 +324,7 @@ MonoBehaviour:
   - {fileID: 714864251}
   - {fileID: 714864251}
   - {fileID: 212153600}
-  slideDuration: 3
+  slideDuration: 5
   nextSceneName: Escenario
 --- !u!1 &714864250
 GameObject:
@@ -430,8 +430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c1c5f71b7be13c40955aaef4599240e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Inicio
-  holdTimeToQuit: 3
+  sceneToLoad: Portada
+  holdTimeToQuit: 2
 --- !u!4 &722119006
 Transform:
   m_ObjectHideFlags: 0

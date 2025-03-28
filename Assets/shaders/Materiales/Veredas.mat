@@ -67,6 +67,6 @@ Material:
     - _Tama_oRuido: 57.73
     - _superficie: 3.14
     m_Colors:
-    - _Tinte: {r: 0.2, g: 0.1832, b: 0.13000001, a: 0}
-    - _tilling: {r: 0.31, g: 0.31, b: 0, a: 0}
+    - _Tinte: {r: 0.349, g: 0.32162747, b: 0.22582354, a: 0}
+    - _tilling: {r: 0.125, g: 0.125, b: 0, a: 0}
   m_BuildTextureStacks: []
