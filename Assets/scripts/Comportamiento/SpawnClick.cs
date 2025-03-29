@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using TMPro;
+
 public class SpawnClick : MonoBehaviour
 {
     public Spawner spawner; // Referencia al script Spawner
     public ContadorGolpes contador; // Referencia al ContadorGolpes
     public int precio = 5; // Precio necesario para activar el botón
+
+    public TextMeshProUGUI textoRecurso; // Referencia al TextMeshProUGUI
 
     private BoxCollider boxCollider;
     private MeshRenderer meshRenderer;
@@ -32,6 +36,19 @@ public class SpawnClick : MonoBehaviour
         {
             Debug.LogWarning("SpawnClick: No se ha asignado un ContadorGolpes en el Inspector.");
         }
+
+
+
+        if (textoRecurso != null)
+        {
+            textoRecurso.text = $"-{precio}";
+        }
+        else
+        {
+            Debug.LogWarning("MostrarRecurso: TextMeshProUGUI en el Inspector.");
+        }
+
+
     }
 
     private void OnMouseDown()
